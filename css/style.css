@@ -1,5 +1,5 @@
 .container  {
-    width: 960px;
+    width: 1050px;
     margin: 0 auto;
 }
 
@@ -11,17 +11,17 @@ body {
 
 header {
     background-color: gray;
-    height: 400px;
+    height: 250px;
 }
 
 main {
     background-color: coral;
-    height: 500px;
+    height: 1100px;
 }
 
 footer {
     background-color: blue;
-    height: 900px;
+    height: 100px;
 }
 
 div {
@@ -68,7 +68,8 @@ nav {
 }
 
 .product_list {
-    margin-left: 40px;
+    padding-top: 50px;
+    margin-left: 100px;
 }
 
 .product_item {
@@ -82,10 +83,20 @@ nav {
 }
 
 .product_item:nth-child(2) {
-    margin-left: 38px;
+    margin-left: 55px;
 }
 
 .product_item img {
     width: 300px;
     height: 300px;
+}
+
+.product_list h3 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.product_list img:hover {
+    border: 5px solid red;
 }
