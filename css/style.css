@@ -37,14 +37,19 @@ nav {
     font-size: 18px;
 }
 
+content {
+    background-color: gray;
+}
+
 .catalog_title {
-        margin: 0;
+        margin-left: 20px;
         text-align: center;
         text-transform: uppercase;
 }
 
 .product_list {
-    margin-left: 40px;
+    margin-left: 28px;
+    padding-bottom: 150px;
 }
 
 .product_item {
@@ -58,10 +63,15 @@ nav {
 }
 
 .product_item:nth-child(2) {
-    margin-left: 60px;
+    margin-left: 75px;
 }
 
 .product_item img{
     width: 200px;
     height: 200px;
 }
+
+.product_item img:hover {
+    border: solid 5px green ;
+}
+
