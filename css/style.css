@@ -2,7 +2,22 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     padding: 0;
     margin: 0;
-    background-color: coral;
+}
+
+.clearfix:after {
+    content: '';
+    display: table;
+    width: 100%;
+    clear: both;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -23,11 +38,16 @@ nav {
     float: right;
 }
 
+.menu {
+    margin: 0;
+    padding: 0;
+}
+
 .menu li {
     float: left;
     display: block;
     margin-right: 30px;
-    margin-top: 105px;
+    margin-top: 115px;
 }
 
 .menu a{
@@ -37,7 +57,20 @@ nav {
     font-size: 18px;
 }
 
-content {
+.btn {
+    border: 3px solid green;
+    padding: 5px;
+    background: green;
+}
+
+.menu a:hover {
+    color: yellow;
+}
+
+main {
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 850px;
     background-color: gray;
 }
 
@@ -75,3 +108,30 @@ content {
     border: solid 5px green ;
 }
 
+footer {
+    margin: 0;
+    padding-bottom: 80px;
+    background-color: blue;
+}
+
+.footer_nav {
+    margin-left: 30px;
+}
+
+.footer_nav li{
+    float: left;
+    display: block;
+    margin-top: 25px;
+    margin-left: 120px;
+}
+
+.footer_nav a{
+    color: #FFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.footer_nav a:hover{
+    color: yellow;
+}
