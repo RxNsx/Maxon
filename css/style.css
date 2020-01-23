@@ -1,12 +1,12 @@
 .container  {
-    width: 930px;
+    width: 960px;
     margin: 0 auto;
 }
 
 body {
     margin: 0;
     padding: 0;
-    color: red;
+    color: #FFF;
 }
 
 header {
@@ -65,4 +65,27 @@ nav {
 
 .menu li a:hover {
     color: green;
+}
+
+.product_list {
+    margin-left: 40px;
+}
+
+.product_item {
+    width: 280px;
+    float: left;
+    text-align: center;
+}
+
+.product_item:last-child {
+    float: right;
+}
+
+.product_item:nth-child(2) {
+    margin-left: 38px;
+}
+
+.product_item img {
+    width: 300px;
+    height: 300px;
 }
