@@ -34,6 +34,16 @@ header {
     margin-top: 40px;
 }
 
+.tel {
+    float: right;
+    margin-top: -170px;
+    margin-right: 40px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #FFF;
+}
+
 nav {
     float: right;
 }
