@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 html {
     background: #fff;
     min-height: 100%;
@@ -31,10 +36,11 @@ h1 {
 }
 
 .header {
+    background: peachpuff;
     width: 100%;
     max-width: 960px;
     min-width: 430px;
-    margin: 0 auto 30px;
+    margin: auto;
     padding: 30px 0 10px;
     display: flex;
     align-items: flex-end;
@@ -78,6 +84,7 @@ h1 {
 }
 
 .main {
+    background: gray;
     width: 100%;
     min-width: 430px;
     max-width: 960px;
@@ -87,6 +94,8 @@ h1 {
 }
 
 .grid {
+    margin: 0;
+    padding: 0;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -145,6 +154,10 @@ h1 {
 
     .nav_itm a {
         width: 100%;
+    }
+
+    .grid_img {
+        margin: auto;
     }
 
     .grid_itm {
