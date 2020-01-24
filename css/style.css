@@ -132,6 +132,6 @@ h1 {
 
 @media screen and (max-width: 800px) {
     .grid_itm {
-        flex: 0 1 calc(50% - 30px / 2);
+        flex: 0 1 calc(50% - 30px / 2)
     }
 }
