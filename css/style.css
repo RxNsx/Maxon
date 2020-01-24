@@ -129,3 +129,9 @@ h1 {
     padding: 15px;
     box-sizing: border-box;
 }
+
+@media screen and (max-width: 800px) {
+    .grid_itm {
+        flex: 0 1 calc(50% - 30px / 2);
+    }
+}
