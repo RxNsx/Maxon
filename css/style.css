@@ -1,154 +1,137 @@
+html {
+    background: #fff;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 0;
     margin: 0;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    flex: auto;
 }
 
-.clearfix:after {
-    content: '';
-    display: table;
+a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+img {
+    border: 0;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+.header {
     width: 100%;
-    clear: both;
-}
-
-div {
+    max-width: 960px;
+    min-width: 430px;
+    margin: 0 auto 30px;
+    padding: 30px 0 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
     box-sizing: border-box;
 }
 
-ul {
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    background-color: aqua;
-    padding-bottom: 10px;
-}
-
-.container {
-    width: 1000px;
-    margin: 0 auto;
-}
-
 .logo {
-    margin-top: 40px;
+    background: #000;
+    width: 200px;
+    height: 80px;
+    font-size: 0;
+    margin: 0 10px 10px 0;
+    display: flex;
+    flex: none;
+    align-items: center;
 }
 
-.tel {
-    float: right;
-    margin-top: -170px;
-    margin-right: 40px;
-    font-size: 18px;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #FFF;
+.nav {
+    margin: -5px 0 10px -15px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-nav {
-    float: right;
-}
-
-.menu {
-    margin: 0;
-    padding: 0;
-}
-
-.menu li {
-    float: left;
-    display: block;
-    margin-right: 20px;
-    margin-top: 115px;
-}
-
-.menu a{
+.nav_itm {
+    background: #000;
+    width: 130px;
+    height: 50px;
+    font-size: 1.5rem;
     color: #fff;
     text-decoration: none;
-    text-transform: uppercase;
-    font-size: 18px;
-    font-weight: 700;
-}
-
-.btn {
-    border: 3px solid green;
-    padding: 5px;
-    background: green;
-}
-
-.menu a:hover {
-    color: yellow;
-}
-
-main {
-    margin: 0;
-    padding-top: 20px;
-    padding-bottom: 150px;
-    background-color: gray;
-}
-
-.catalog_title {
-        margin-left: 20px;
-        text-align: center;
-        text-transform: uppercase;
-}
-
-.product_list {
-    margin-left: 28px;
-    padding-bottom: 150px;
-}
-
-.product_item {
-    width: 270px;
-    float: left;
     text-align: center;
+    margin: 5px 0 0 15px;
+    display: flex;
 }
 
-.product_item:last-child {
-    float: right;
+.main {
+    width: 100%;
+    min-width: 430px;
+    max-width: 960px;
+    margin: auto;
+    flex: auto;
+    box-sizing: border-box;
 }
 
-.product_item:nth-child(2) {
-    margin-left: 75px;
+.fline {
+    background: #000;
+    width: 70%;
+    min-height: 80px;
+    margin: 0 0 30px 30px;
 }
 
-.product_item img{
+.sline {
+    background: #000;
+    width: 80%;
+    min-height: 80px;
+    margin: 0 0 30px 30px;
+}
+
+.grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.grid_itm {
+    margin-bottom: 30px;
+    flex: 0 1 calc(25% - 30px * 3/4);
+}
+
+.grid_img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.sqr {
     width: 200px;
     height: 200px;
+    background: #000;
 }
 
-.product_item img:hover {
-    border: solid 5px green ;
+.footer {
+    background: #000;
+    width: 100%;
+    max-width: 960px;
+    min-width: 430px;
+    color: #fff;
+    margin: auto;
+    padding: 15px;
+    box-sizing: border-box;
 }
 
-.content {
-    margin-top: 130px;
-    text-align: center;
-}
-
-footer {
-    margin: 0;
-    padding-bottom: 80px;
-    background-color: blue;
-}
-
-.footer_nav {
-    margin-left: 30px;
-}
-
-.footer_nav li{
-    float: left;
-    display: block;
-    margin-top: 25px;
-    margin-left: 120px;
-}
-
-.footer_nav a{
-    color: #FFF;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 18px;
-    font-weight: 700;
-}
-
-.footer_nav a:hover{
-    color: yellow;
+@media screen and (max-width: 800px) {
+    .grid_itm {
+        flex: 0 1 calc(50% - 30px / 2);
+    }
 }
