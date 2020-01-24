@@ -44,7 +44,6 @@ h1 {
 }
 
 .logo {
-    background: #000;
     width: 200px;
     height: 80px;
     font-size: 0;
@@ -113,6 +112,11 @@ h1 {
     margin-bottom: 30px;
 }
 
+.grid_img img {
+    width: 200px;
+    height: 200px;
+}
+
 .sqr {
     width: 200px;
     height: 200px;
@@ -131,7 +135,15 @@ h1 {
 }
 
 @media screen and (max-width: 800px) {
+    
+    
     .grid_itm {
-        flex: 0 1 calc(50% - 30px / 2)
+        flex: 0 1 calc(70% - 30px / 2)
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .grid_itm {
+        flex: 0 1 calc(70% - 30px / 2)
     }
 }
