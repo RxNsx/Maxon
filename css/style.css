@@ -42,10 +42,12 @@ h1 {
     box-sizing: border-box;
 }
 
+.logoimg {
+    width: 300px;
+    height: 300px;
+}
+
 .logo {
-    width: 250px;
-    height: 250px;
-    font-size: 0;
     margin: 0;
     display: flex;
     flex: none;
@@ -57,6 +59,10 @@ h1 {
     margin: -5px 0 10px -15px;
     display: flex;
     flex-wrap: wrap;
+}
+
+.nav a{
+    text-align: center;
 }
 
 .nav_itm {
@@ -78,20 +84,6 @@ h1 {
     margin: auto;
     flex: auto;
     box-sizing: border-box;
-}
-
-.fline {
-    background: #000;
-    width: 70%;
-    min-height: 80px;
-    margin: 0 0 30px 30px;
-}
-
-.sline {
-    background: #000;
-    width: 80%;
-    min-height: 80px;
-    margin: 0 0 30px 30px;
 }
 
 .grid {
@@ -124,8 +116,8 @@ h1 {
 }
 
 .footer {
-    background: #000;
     width: 100%;
+    background: #000;
     max-width: 960px;
     min-width: 430px;
     color: #fff;
