@@ -206,4 +206,13 @@ h1 {
         flex: 0 1 calc(70% - 30px / 2);
         margin: auto;
     }
+
+    .footernav {
+        flex-direction: column;
+    }
+
+    .footernav_itm {
+        flex-direction: column;
+        justify-content: center;
+    }
 }
