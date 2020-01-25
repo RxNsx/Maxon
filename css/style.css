@@ -37,7 +37,7 @@ h1 {
 }
 
 .header {
-    background: peachpuff;
+    background: rgb(90, 142, 224);
     width: 100%;
     margin: auto;
     padding: 30px 0 10px;
@@ -71,17 +71,21 @@ h1 {
 
 .nav_itm {
     display: flex;
-    background: red;
+    background: rgba(199, 243, 3, 0.527);
     border: 3px solid blue;
     font-size: 25px;
     color: #fff;
     text-decoration: none;
     margin: 0 15px;
+    padding: 5px;
 }
 
+.nav_itm:hover {
+    color: blue;
+}
 
 .main {
-    background: gray;
+    background: rgb(156, 195, 218);
     width: 100%;
     margin: auto;
     padding: 0 20px;
@@ -91,7 +95,12 @@ h1 {
 
 .main h1{
     text-align: center;
-    margin-bottom: 30px;
+    margin: 30px 0;
+}
+
+.main h2{
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 .main .grid_img{
@@ -133,7 +142,7 @@ h1 {
 
 .footer {
     width: 100%;
-    background: peachpuff;
+    background: rgb(90, 142, 224);
     color: #fff;
     margin: auto;
     padding: 15px;
@@ -147,12 +156,17 @@ h1 {
 
 .footernav_itm {
     display: flex;
-    background: red;
+    background: rgba(199, 243, 3, 0.527);
     border: 3px solid blue;
     font-size: 25px;
     color: #fff;
     text-decoration: none;
     margin: 0 15px;
+    padding: 5px;
+}
+
+.footernav_itm:hover {
+    color: blue;
 }
 
 @media screen and (max-width: 955px) {
@@ -161,10 +175,12 @@ h1 {
     .header {
         flex-direction: column;
         justify-content: center;
+        align-items: center;
     }
 
-    .logo {
+    .logoimg {
         width: 100%;
+        padding: 0;
     }
 
     .nav {
@@ -173,9 +189,12 @@ h1 {
     }
 
     .nav_itm {
-        background: blue;
-        width: 100%;
+        background: rgba(199, 243, 3, 0.527);
+        width: 750px;
         justify-content: space-around;
+        margin: 0;
+        padding: 0;
+        align-items: center;
     }
 
 
