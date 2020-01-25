@@ -48,8 +48,8 @@ h1 {
 }
 
 .logoimg {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
 }
 
 .logo {
@@ -84,8 +84,17 @@ h1 {
     background: gray;
     width: 100%;
     margin: auto;
+    padding: 0 20px;
     flex: auto;
     box-sizing: border-box;
+}
+
+.main h1{
+    text-align: center;
+}
+
+.main .grid_img{
+    text-align: center;
 }
 
 .grid {
@@ -128,6 +137,21 @@ h1 {
     margin: auto;
     padding: 15px;
     box-sizing: border-box;
+}
+
+.footernav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footernav_itm {
+    display: flex;
+    background: red;
+    border: 3px solid blue;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
 }
 
 @media screen and (max-width: 955px) {
